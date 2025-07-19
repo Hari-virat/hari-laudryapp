@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --primary-clr:#cbd6da; 
+    --black-clr:#010101;
+    --box-clr:#e9eced;
+    --red-clr:red;
+    --silver-clr:rgb(184, 180, 180);
+    --pink-clr:pink;
+   --white-clr:#ffffff;
+  
+}
+
+
+body{
+    background-color:var(--primary-clr) ;
+    color:var(--black-clr);
+      font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

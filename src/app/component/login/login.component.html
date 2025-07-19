@@ -1,0 +1,47 @@
+
+
+
+
+<section class=""> 
+<div class="container">
+
+   <div class="row login-fullbox py-3 px-3 mx-1 my-1 mx-sm-1 my-sm-1 mx-md-2 my-md-2 mx-lg-3 my-lg-2 mx-xl-3 my-xl-2   d-flex justify-content-center align-items-center">
+ <div class=" col-md-12 col-lg-6 col-xl-6 col-xxl-6 px-0 h-100">
+<img src="assets\images\login-img.jpg" alt="" width="100%" class="login-img img-fluid">
+    </div>
+     <div class=" col-md-12 col-lg-6  col-xl-6 col-xxl-6 px-0 h-100">
+  <div class="form-box mx-3">
+    <h1 class="text-center fw-bold  pt-md-3 pt-3 pt-sm-3 pt-lg-0 pt-xl-0 pt-xxl-0">Login</h1>
+ <form [formGroup]="register" (ngSubmit)="getdata()">
+    <div class="row ">
+      <div class="py-2">
+        <label class="form-label">UserName</label>
+        <input type="text" class="form-control" formControlName="name" placeholder="Username">
+        <span class="err-msg" *ngIf="valuename?.invalid && valuename?.touched">
+          Please enter a valid username (min 3 characters)
+        </span>
+      </div>
+
+      <div class=" py-2">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" formControlName="password" placeholder="Password">
+        <span class="err-msg" *ngIf="valuepassword?.invalid && valuepassword?.touched">
+          Please enter a valid password (min 8 characters)
+        </span>
+      </div>
+
+      <div class=" py-2 mt-3 text-center">
+        <button type="submit" class="submit-btn" routerLink="/home">Submit</button>
+        <!-- [disabled]="register.invalid" -->
+      </div>
+      
+    </div>
+  </form>
+    </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+
