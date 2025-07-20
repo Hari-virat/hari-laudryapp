@@ -9,6 +9,7 @@ import { RouterLink } from '@angular/router';
 import { HomeComponent } from './component/home/home.component';
 import { HeaderComponent } from './component/header/header.component';
 import { NeworderComponent } from './component/neworder/neworder.component';
+import { SavepannelComponent } from './component/savepannel/savepannel.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NeworderComponent } from './component/neworder/neworder.component';
     LoginComponent,
     HomeComponent,
     HeaderComponent,
-    NeworderComponent
+    NeworderComponent,
+    SavepannelComponent
   ],
   imports: [
     BrowserModule,

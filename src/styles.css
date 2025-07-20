@@ -1,17 +1,25 @@
 :root{
-    --primary-clr:#cbd6da; 
+    --primary-clr:#d2dbc7; 
+    --box-clr:#333435;
     --black-clr:#010101;
-    --box-clr:#e9eced;
     --red-clr:red;
     --silver-clr:rgb(184, 180, 180);
     --pink-clr:pink;
    --white-clr:#ffffff;
-  
+  /* --primary-clr: #cbd6da;
+--box-clr: #e9eced;
+--accent-clr: #4a90a4;
+--contrast-clr: #f9c89b;
+--companion-clr: #b7c7a3;
+--match-clr: #a1b0b8;
+--match-clr: #7f98a0;
+ */
+
 }
 
 
 body{
     background-color:var(--primary-clr) ;
-    color:var(--black-clr);
+    
       font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

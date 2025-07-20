@@ -1,5 +1,6 @@
 .move-box{
-    background-color:var(--silver-clr) ;
+    background-color:var(--box-clr) ;
     border-radius: 10px;
+    color: var(--white-clr);
     
 }
