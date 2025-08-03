@@ -1,11 +1,12 @@
 :root{
-    --primary-clr:#d2dbc7; 
-    --box-clr:#333435;
+    --primary-clr:#D6CDF2; 
+    --box-clr:#1d1d1ddf;
     --black-clr:#010101;
     --red-clr:red;
     --silver-clr:rgb(184, 180, 180);
     --pink-clr:pink;
    --white-clr:#ffffff;
+   --green-clr:rgb(27, 198, 61);
   /* --primary-clr: #cbd6da;
 --box-clr: #e9eced;
 --accent-clr: #4a90a4;

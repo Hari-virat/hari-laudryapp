@@ -1,8 +1,10 @@
-
+label{
+    font-weight: bold;
+}
 .submit-btn{
     width:100%;
     border: none;
-    padding: 5px 0px 5px 0px;
+    padding: 6px 0px 6px 0px;
     border-radius: 8px;
    transition: all 0.8s ease;
    background-color:var(--white-clr);
@@ -13,4 +15,47 @@ background-color: var(--black-clr);
 color: var(--white-clr);
 transform: scale(1.07);
 
+}
+.select-items{
+    border: none;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+    width:100%;
+}
+
+.select-items:focus{
+      outline: none;
+    box-shadow: none;
+    border-color: inherit; 
+    background-color: var(--white-clr);
+}
+.qty-box{
+    width: 100%;
+}
+.addbtn{
+    width: 100%;
+    border: none;
+    background-color: var(--white-clr);
+    border-radius: 6px;
+    padding:6px 0px 6px 0px;
+      transition: all 0.8s ease;
+}
+.addbtn:hover{
+background-color: var(--black-clr);
+color: var(--white-clr);
+transform: scale(1.07);
+
+}
+.table-deletebtn{
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    padding: 4px 0px 4px 0px ;
+    transition: all 0.8s ease;
+    border-radius: 6px;
+}
+.table-deletebtn:hover{
+   
+background-color: var(--red-clr);
+color: var(--white-clr);
 }

@@ -10,6 +10,12 @@ import { HomeComponent } from './component/home/home.component';
 import { HeaderComponent } from './component/header/header.component';
 import { NeworderComponent } from './component/neworder/neworder.component';
 import { SavepannelComponent } from './component/savepannel/savepannel.component';
+import { WashingComponent } from './component/washing/washing.component';
+import { IroningComponent } from './component/ironing/ironing.component';
+import { DeliveryComponent } from './component/delivery/delivery.component';
+import { DeliveryhistoryComponent } from './component/deliveryhistory/deliveryhistory.component';
+import { CustomerhistoryComponent } from './component/customerhistory/customerhistory.component';
+import { DailyexpensesComponent } from './component/dailyexpenses/dailyexpenses.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { SavepannelComponent } from './component/savepannel/savepannel.component
     HomeComponent,
     HeaderComponent,
     NeworderComponent,
-    SavepannelComponent
+    SavepannelComponent,
+    WashingComponent,
+    IroningComponent,
+    DeliveryComponent,
+    DeliveryhistoryComponent,
+    CustomerhistoryComponent,
+    DailyexpensesComponent
   ],
   imports: [
     BrowserModule,

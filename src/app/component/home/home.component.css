@@ -1,6 +1,67 @@
-.move-box{
-    background-color:var(--box-clr) ;
-    border-radius: 10px;
-    color: var(--white-clr);
-    
+span, p, address{
+  color:rgb(226, 232, 234) !important ;
 }
+
+
+.save-boxs{
+    background-color: var(--box-clr);
+    color: var(--white-clr);
+    border-radius: 16px;
+    transition: all 0.6s ease;
+  
+}
+.save-boxs:hover{
+  transform: scale(1.02);
+  
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+ thead tr,th{
+     
+    border: 2px solid var(--box-clr);
+    color:var(--box-clr);
+    text-align: center;
+   background-color: rgba(255, 255, 255, 0.797);
+  }
+
+
+  tbody tr, td {
+    
+         background-color: rgba(255, 255, 255, 0.797);
+    border: 2px solid var(--box-clr);
+  } 
+
+  .total-amd{
+ background-color: rgba(255, 255, 255, 0.9); 
+  }
+
+.savebox-btnthree{
+  border: none;
+  width: 100%;
+ background-color: rgba(255, 255, 255, 0.863);   
+  border-radius: 5px;
+  padding: 5px 0px 5px 0px ;
+  transition: all 0.8s ease;
+}
+.savebox-btnone:hover{
+background-color: var(--green-clr);
+color: var(--white-clr);
+transform: scale(1.03);
+}
+.savebox-btntwo:hover{
+background-color: var(--red-clr);
+color: var(--white-clr);
+transform: scale(1.03);
+}
+
+.savebox-btnthree:hover{
+background-color: var(--black-clr);
+color: var(--white-clr);
+transform: scale(1.03);
+}
+button{
+  font-weight: bold;
+}
+

@@ -1,0 +1,28 @@
+
+
+nav {
+background: var(--box-clr)
+
+}
+
+
+
+
+
+.navbar-nav{
+background-color: transparent;
+}
+
+  .navbar-nav .nav-link {
+    color:var(--white-clr);
+  }
+
+  .navbar-nav .nav-link:hover {
+   color: blueviolet;
+   font-weight: bold;
+  }
+
+.navbar-toggler {
+  background-color: white;
+  border: 1px solid white;
+}

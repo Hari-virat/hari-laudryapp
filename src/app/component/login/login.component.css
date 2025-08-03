@@ -37,9 +37,9 @@ input:focus {
 
 }
 .submit-btn:hover{
-
 transform: scale(1.07);
-
+background-color: var(--black-clr);
+color: var(--white-clr);
 }
 .login-img{
     border-radius: 13px;
