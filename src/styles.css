@@ -24,3 +24,10 @@ body{
     
       font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+h1{
+  font-size: 50px;
+  font-weight: bold;
+    background-image: linear-gradient(to bottom, #101010,#d38686); /* Blue to Light Cyan */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
