@@ -1,0 +1,18 @@
+.invoice-mlr-title{
+  font-size: 18px !important;
+}
+
+.print-btn{
+width: 50%;
+    border: none;
+    background-color: var(--white-clr);
+    border-radius: 6px;
+    padding:6px 0px 6px 0px;
+      transition: all 0.8s ease;
+}
+.print-btn:hover{
+background-color: var(--black-clr);
+color: var(--white-clr);
+transform: scale(1.07);
+
+}

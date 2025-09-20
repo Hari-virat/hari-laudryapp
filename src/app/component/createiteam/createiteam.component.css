@@ -1,0 +1,42 @@
+.sbt-btn{
+    width: 100%;
+    border: none;
+    background-color: var(--white-clr);
+    border-radius: 6px;
+    padding:6px 0px 6px 0px;
+      transition: all 0.8s ease;
+}
+.sbt-btn:hover{
+background-color: var(--black-clr);
+color: var(--white-clr);
+transform: scale(1.03);
+
+}
+.edit-btn{
+     width: 100%;
+    border: none;
+    background-color: transparent;
+    border-radius: 6px;
+    padding:6px 0px 6px 0px;
+      transition: all 0.6s ease;
+}
+.edit-btn:hover{
+    background-color:green;
+color: var(--white-clr);
+transform: scale(1.03);
+font-weight: bold;
+}
+.delete-btn{
+     width: 100%;
+    border: none;
+    background-color: transparent;
+    border-radius: 6px;
+    padding:6px 0px 6px 0px;
+      transition: all 0.6s ease;
+}
+.delete-btn:hover{
+    background-color:red;
+color: var(--white-clr);
+transform: scale(1.03);
+font-weight: bold;
+}

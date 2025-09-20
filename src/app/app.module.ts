@@ -15,7 +15,14 @@ import { IroningComponent } from './component/ironing/ironing.component';
 import { DeliveryComponent } from './component/delivery/delivery.component';
 import { DeliveryhistoryComponent } from './component/deliveryhistory/deliveryhistory.component';
 import { CustomerhistoryComponent } from './component/customerhistory/customerhistory.component';
-import { DailyexpensesComponent } from './component/dailyexpenses/dailyexpenses.component';
+
+import { SettingsComponent } from './component/settings/settings.component';
+import { CreateexpenceComponent } from './component/createexpence/createexpence.component';
+import { DailyexpenceComponent } from './component/dailyexpence/dailyexpence.component';
+import { MonthlyexpenceComponent } from './component/monthlyexpence/monthlyexpence.component';
+import { BillComponent } from './component/bill/bill.component';
+import { CreateiteamComponent } from './component/createiteam/createiteam.component';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +37,13 @@ import { DailyexpensesComponent } from './component/dailyexpenses/dailyexpenses.
     DeliveryComponent,
     DeliveryhistoryComponent,
     CustomerhistoryComponent,
-    DailyexpensesComponent
+    SettingsComponent,
+    CreateexpenceComponent,
+    DailyexpenceComponent,
+    MonthlyexpenceComponent,
+    BillComponent,
+    CreateiteamComponent,
+
   ],
   imports: [
     BrowserModule,

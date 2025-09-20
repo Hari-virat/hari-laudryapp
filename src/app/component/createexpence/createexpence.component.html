@@ -1,0 +1,76 @@
+<section class="py-5">
+
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center">
+            <h1 class="text-center h1-res">
+                Create Expence
+            </h1>
+            <span class="d-flex align-items-center mx-1 mx-lg-3 mx-xl-3 mx-xxl-3"><img src="assets\images\notes.png"
+                    alt="" width="45" height="45" class="img-fluid ">
+            </span>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-xl-8 offset-xl-2 col-xxl-8 offset-xxl-2">
+                <form>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Date</label>
+                        <input type="date" class="form-control" id="date" name="date" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="amount" class="form-label">Item</label>
+                        <input type="number" class="form-control" id="amount" name="amount" step="0.01" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="amount" class="form-label">Amount ($)</label>
+                        <input type="number" class="form-control" id="amount" name="amount" step="0.01" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="notes" class="form-label">Notes</label>
+                        <textarea class="form-control" id="notes" name="notes" rows="3"
+                            placeholder="Write a brief description or note..."></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="submit-expence fw-bold">Submit Expense</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row pt-5">
+            <div class="col-lg-8 offset-lg-2 col-xl-8 offset-xl-2 col-xxl-8 offset-xxl-2">
+                <div class="mt-5">
+                    <h4>Today's Expenses</h4>
+                    <table class="table table-striped table-bordered mt-3">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Date</th>
+                                <th>Amount ($)</th>
+                                <th>Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Example rows (replace with dynamic data later if needed) -->
+                            <tr>
+                                <td>2025-08-09</td>
+                                <td>12.50</td>
+                                <td>Lunch at cafe</td>
+                            </tr>
+                            <tr>
+                                <td>2025-08-09</td>
+                                <td>45.00</td>
+                                <td>Groceries</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col text-end">
+                            <button class="expence-btn fw-bold">Today expence completed</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

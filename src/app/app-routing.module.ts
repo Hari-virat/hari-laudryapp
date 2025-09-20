@@ -9,8 +9,13 @@ import { IroningComponent } from './component/ironing/ironing.component';
 import { DeliveryComponent } from './component/delivery/delivery.component';
 import { DeliveryhistoryComponent } from './component/deliveryhistory/deliveryhistory.component';
 import { CustomerhistoryComponent } from './component/customerhistory/customerhistory.component';
-import { DailyexpensesComponent } from './component/dailyexpenses/dailyexpenses.component';
-
+import { SettingsComponent } from './component/settings/settings.component';
+import { CreateexpenceComponent } from './component/createexpence/createexpence.component';
+import { DailyexpenceComponent } from './component/dailyexpence/dailyexpence.component';
+import { MonthlyexpenceComponent } from './component/monthlyexpence/monthlyexpence.component';
+import { authGuard } from './guards/auth.guard';
+import { BillComponent } from './component/bill/bill.component';
+import { CreateiteamComponent } from './component/createiteam/createiteam.component';
 const routes: Routes = [
   {path:'',component:LoginComponent},
   {path:'home',component:HomeComponent},
@@ -21,7 +26,15 @@ const routes: Routes = [
 {path:'delivery',component:DeliveryComponent},
 {path:'deliveryhistory',component:DeliveryhistoryComponent},
 {path:'customerhistory',component:CustomerhistoryComponent},
-{path:'dailyexpenses',component:DailyexpensesComponent}
+{path:'settings',component:SettingsComponent},
+{path:'createexpence',component:CreateexpenceComponent},
+{path:'dailyexpence',component:DailyexpenceComponent},
+{path:'monthlyexpence',component:MonthlyexpenceComponent},
+{path:'bill',component:BillComponent},
+{path:'createitem',component:CreateiteamComponent}
+
+
+
 ];
 
 @NgModule({

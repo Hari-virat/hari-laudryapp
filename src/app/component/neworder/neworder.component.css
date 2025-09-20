@@ -13,7 +13,7 @@ label{
 .submit-btn:hover{
 background-color: var(--black-clr);
 color: var(--white-clr);
-transform: scale(1.07);
+
 
 }
 .select-items{
