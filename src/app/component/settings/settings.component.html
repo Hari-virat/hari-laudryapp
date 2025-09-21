@@ -1,44 +1,72 @@
+<app-header></app-header>
 <section class="py-5">
     <div class="container">
-           <div class="d-flex justify-content-center">
-      <h1 class="text-center">
-       Settings Page
-      </h1>
-      <span class="d-flex align-items-center mx-3"><img src="assets\images\settings-img.png" alt="setimg" width="45" height="45"
-          class="img-fluid ">
-      </span>
-    </div>
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-lg-8">
+                <div class="d-flex justify-content-center">
+                    <h1 class="text-center">
+                        Settings Page
+                    </h1>
+                    <span class="d-flex align-items-center mx-3"><img src="assets\images\settings-img.png" alt="setimg"
+                            width="45" height="45" class="img-fluid ">
+                    </span>
+                </div>
+            </div>
+            <div class="col-2 d-flex align-items-center justify-content-center">
+                <div class="d-flex gap-5">
+                    <div class="" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            class="bi bi-arrow-left fw-bold" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                        </svg>
+                    </div>
+                    <div class="" routerLink="/neworder">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            class="bi bi-arrow-right fw-bold" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
         <div class="row py-5">
             <div class="col-4">
                 <div class="settings-box px-3 py-4 text-center" routerLink="/createexpence">
                     <p class="routes-btn">Create Expence</p>
                 </div>
             </div>
-             <div class="col-4">
-                 <div class="settings-box px-3 py-4 text-center" routerLink="/dailyexpence">
-                    <p class="routes-btn">Daily Expence</p>
+            <div class="col-4">
+                <div class="settings-box px-3 py-4 text-center">
+                    <p class="routes-btn">xxxx</p>
                 </div>
             </div>
-             <div class="col-4">
-               
-                <div class="settings-box px-3 py-4 text-center" routerLink="/monthlyexpence">
-                    <p class="routes-btn">Monthly Expence</p>
+            <div class="col-4">
+
+                <div class="settings-box px-3 py-4 text-center">
+                    <p class="routes-btn">xxx</p>
                 </div>
             </div>
         </div>
-         <div class="row ">
+        <div class="row ">
             <div class="col-4">
                 <div class="settings-box px-3 py-4 text-center" routerLink="/createitem">
                     <p class="routes-btn">Items Amount Change</p>
                 </div>
             </div>
-             <div class="col-4">
-                 <div class="settings-box px-3 py-4 text-center">
+            <div class="col-4">
+                <div class="settings-box px-3 py-4 text-center">
                     <p class="routes-btn">xx</p>
                 </div>
             </div>
-             <div class="col-4">
-               
+            <div class="col-4">
+
                 <div class="settings-box px-3 py-4 text-center">
                     <p class="routes-btn">xx</p>
                 </div>

@@ -80,3 +80,60 @@ button{
   font-weight: bold;
 }
 
+.search-input{
+    border: none;
+    width: 80%;
+    padding: 6px 6px 6px 6px;
+    background-color: transparent;
+}
+.search-input:focus{
+  outline: none;
+}
+.search-btn{
+    border:none;
+    background-color: transparent;
+       border-radius: 10px;
+       width: 20%;
+  transition: all 0.8s ease;
+  padding: 3px 0px 3px 0px;
+}
+  .search-btn:hover {
+    background-color:var(--box-clr);
+  }
+
+  .search-btn:hover svg {
+    fill: white;
+       
+  }
+.search-container{
+  background-color: rgba(255, 255, 255, 0.863);
+     border-radius: 8px;
+ border:1px solid var(--silver-clr);
+}
+.count-box{
+   border: none;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.863);   
+  border-radius: 5px;
+  padding: 5px 0px 5px 0px ;
+  transition: all 0.8s ease;
+  font-weight: bold;
+  
+}
+.count-box-para{
+  color: var(--black-clr) !important;
+}
+.all-move-btn{
+   border: none;
+  width: 100%;
+ background-color: rgba(255, 255, 255, 0.863);   
+  border-radius: 5px;
+  padding: 5px 0px 5px 0px ;
+  transition: all 0.8s ease;
+}
+
+.all-move-btn:hover{
+background-color: var(--black-clr);
+color: var(--white-clr);
+
+}

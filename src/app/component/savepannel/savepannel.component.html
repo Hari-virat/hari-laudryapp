@@ -1,12 +1,86 @@
 <app-header></app-header>
 <section class="py-5">
-     <div class="d-flex justify-content-center">
-      <h1 class="text-center">
-        Save pannel
-      </h1>
+<div class="container">
+   <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+   <div class="d-flex justify-content-center">
+        <h1 class="text-center">
+            Save pannel
+        </h1>
     </div>
+        </div>
+       <div class="col-2 d-flex align-items-center justify-content-center">
+        <div class="d-flex gap-5">
+          <div class="" routerLink="/neworder">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+              class="bi bi-arrow-left fw-bold" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+            </svg>
+          </div>
+          <div class="" routerLink="/confirmorderlist">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+              class="bi bi-arrow-right fw-bold" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+ 
+ 
     <div class="container">
         <div class="row">
+            <div class="col-lg-8 offset-lg-2 py-3">
+                <div class="row">
+                    <div class="col">
+                        <div class="search-container">
+                            <input type="search" placeholder="Kuri" class="search-input">
+                            <button type="submit" class="search-btn "><svg xmlns="http://www.w3.org/2000/svg" width="25"
+                                    height="16" fill="light" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="search-container">
+                            <input type="search" placeholder="Bill no" class="search-input">
+                            <button type="submit" class="search-btn "><svg xmlns="http://www.w3.org/2000/svg" width="25"
+                                    height="16" fill="light" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="search-container ">
+                            <input type="search" placeholder="Phone no" class="search-input">
+                            <button type="submit" class="search-btn "><svg xmlns="http://www.w3.org/2000/svg" width="25"
+                                    height="16" fill="light" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                </svg></button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row pt-4">
+                    <div class="col-8">
+
+                    </div>
+                    <div class="col-4">
+                        <div class="count-box text-center">
+                            <p class="count-box-para">12</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-lg-8 offset-lg-2 py-3">
                 <div class="save-boxs px-4 py-4">
                     <div class="row pt-2">
@@ -23,7 +97,8 @@
                     <div class="row pt-2">
                         <div class="col">
                             <div class="">
-                                <span class="fw-bold boxs-headings">Customer Name : &nbsp;</span><span>Hari Prasath Virat</span>
+                                <span class="fw-bold boxs-headings">Customer Name : &nbsp;</span><span>Hari Prasath
+                                    Virat</span>
                             </div>
                         </div>
                         <div class="col">
@@ -85,20 +160,20 @@
 
                     <div class="row pt-3">
                         <div class="col">
-                            <button class="savebox-btnone">Edit</button>
+                            <button class="savebox-btnone" routerLink="/neworder">Edit</button>
                         </div>
                         <div class="col">
                             <button class="savebox-btntwo">Delete</button>
                         </div>
                         <div class="col">
-                            <button class="savebox-btnthree">Confirm to orders</button>
+                            <button class="savebox-btnthree" routerLink="/confirmorderlist">Confirm to orders</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- example -->
-               <div class="col-lg-8 offset-lg-2 py-3">
+            <div class="col-lg-8 offset-lg-2 py-3">
                 <div class="save-boxs px-4 py-4">
                     <div class="row pt-2">
                         <div class="col">
@@ -176,13 +251,13 @@
 
                     <div class="row pt-3">
                         <div class="col">
-                            <button class="savebox-btnone">Edit</button>
+                            <button class="savebox-btnone" routerLink="/neworder">Edit</button>
                         </div>
                         <div class="col">
                             <button class="savebox-btntwo">Delete</button>
                         </div>
                         <div class="col">
-                            <button class="savebox-btnthree">Move to orders</button>
+                            <button class="savebox-btnthree" routerLink="/confirmorderlist">Confirm to orders</button>
                         </div>
                     </div>
                 </div>

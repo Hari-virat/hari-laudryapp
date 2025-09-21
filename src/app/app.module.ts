@@ -22,6 +22,9 @@ import { DailyexpenceComponent } from './component/dailyexpence/dailyexpence.com
 import { MonthlyexpenceComponent } from './component/monthlyexpence/monthlyexpence.component';
 import { BillComponent } from './component/bill/bill.component';
 import { CreateiteamComponent } from './component/createiteam/createiteam.component';
+import { PackingComponent } from './component/packing/packing.component';
+import { CustomerrecordComponent } from './component/customerrecord/customerrecord.component';
+import { DeliveryrecordComponent } from './component/deliveryrecord/deliveryrecord.component';
 
 
 @NgModule({
@@ -43,6 +46,9 @@ import { CreateiteamComponent } from './component/createiteam/createiteam.compon
     MonthlyexpenceComponent,
     BillComponent,
     CreateiteamComponent,
+    PackingComponent,
+    CustomerrecordComponent,
+    DeliveryrecordComponent,
 
   ],
   imports: [

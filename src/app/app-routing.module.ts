@@ -16,9 +16,12 @@ import { MonthlyexpenceComponent } from './component/monthlyexpence/monthlyexpen
 import { authGuard } from './guards/auth.guard';
 import { BillComponent } from './component/bill/bill.component';
 import { CreateiteamComponent } from './component/createiteam/createiteam.component';
+import { PackingComponent } from './component/packing/packing.component';
+import { CustomerrecordComponent } from './component/customerrecord/customerrecord.component';
+import { DeliveryrecordComponent } from './component/deliveryrecord/deliveryrecord.component';
 const routes: Routes = [
   {path:'',component:LoginComponent},
-  {path:'home',component:HomeComponent},
+  {path:'confirmorderlist',component:HomeComponent},
   {path:'neworder',component:NeworderComponent},
 {path :'savepannel',component:SavepannelComponent},
 {path:'washing',component:WashingComponent},
@@ -26,12 +29,13 @@ const routes: Routes = [
 {path:'delivery',component:DeliveryComponent},
 {path:'deliveryhistory',component:DeliveryhistoryComponent},
 {path:'customerhistory',component:CustomerhistoryComponent},
-{path:'settings',component:SettingsComponent},
+{path:'home',component:SettingsComponent},
 {path:'createexpence',component:CreateexpenceComponent},
-{path:'dailyexpence',component:DailyexpenceComponent},
-{path:'monthlyexpence',component:MonthlyexpenceComponent},
 {path:'bill',component:BillComponent},
-{path:'createitem',component:CreateiteamComponent}
+{path:'createitem',component:CreateiteamComponent},
+{path:'packing',component:PackingComponent},
+{path:'customerrecord',component:CustomerrecordComponent},
+{path:'deliveryrecord',component:DeliveryrecordComponent}
 
 
 
